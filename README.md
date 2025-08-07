@@ -20,9 +20,6 @@ A machine learning project to **predict house prices** based on key property fea
 - [Evaluation Metrics](#evaluation-metrics)
 - [Results](#results)
 - [Visualizations](#visualizations)
-- [Feature Importance](#feature-importance)
-- [How to Run](#how-to-run)
-- [License](#license)
 
 ---
 
@@ -101,9 +98,12 @@ Both models were evaluated using:
 | **Linear Regression** | ₹23,75,000 | ₹30,40,000 |
 | **Gradient Boosting** | ₹10,92,000 | ₹14,78,000 |
 
-✅ **Gradient Boosting outperformed Linear Regression significantly**, showing better accuracy and robustness.
+---
 
-> 💡 Lower values = better performance.
+## 🖼️ Visualizations
 
+### 1. Actual vs Predicted Prices
+*Scatter plots comparing actual and predicted prices for both models.*
+
+### 2. Feature Importance (Gradient Boosting)
 *Top features influencing house prices: `area`, `bathrooms`, and `airconditioning` are most significant.*
-
